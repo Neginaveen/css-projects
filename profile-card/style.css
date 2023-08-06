@@ -1,0 +1,34 @@
+/* google fonts poppins */
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Marcellus&family=Poppins:ital,wght@0,300;0,400;0,600;1,500&family=Roboto+Mono:wght@100&display=swap');
+
+* {
+    font-family: "poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+
+}
+
+.image-container {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #4070f4;
+    padding: 3px;
+}
+
+.image-container .profile-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
